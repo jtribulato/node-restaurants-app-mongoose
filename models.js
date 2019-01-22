@@ -17,7 +17,7 @@ const restaurantSchema = mongoose.Schema({
   // grades will be an array of objects
   grades: [{
     date: Date,
-    grade: String,
+    grade: String, 
     score: Number
   }]
 });
